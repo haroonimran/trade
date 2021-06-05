@@ -1,0 +1,6 @@
+import cbpro
+
+
+auth_client = cbpro.AuthenticatedClient(key="d985e3588f4e291d8f14478809fae08f", b64secret = "e39gOMBabOAw/Losbg0RCyfWFar5xMWgDRpyOCIrKRTZWF7YEKQcVRtFeuxVJ2ep/FKqucLSwd9LX4VrXNpdTg==",passphrase = "3wg6h6iy24x",api_url="https://api-public.sandbox.pro.coinbase.com")
+a = auth_client.get_accounts()
+print(a)
